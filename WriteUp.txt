@@ -1,0 +1,24 @@
+CMPUT404 Lab2
+
+Question 1: 
+Using the library "socket". 
+For http, using socket.socket(socket.AF_INET, socket.SOCK_STREAM).
+For https, using ssl.wrap_socket(socket.socket()).
+
+Question 2: 
+A client socket only need to connect an address, receive data and then close the socket.
+A server socket needs to bind an address and to listen on a specific port all the time until the 
+process is killed.
+
+Question 3: 
+When we finish using a socket, we need to close it. After closing the socket, the port
+that bound with it will be free.
+
+Question 4: 
+We can know the IP address and the port of an incoming connection and a socket.
+
+Question 5: 
+recv() returns the data that a client sends.
+
+Question 6: 
+https://github.com/phoebebai/CMPUT404Lab2
